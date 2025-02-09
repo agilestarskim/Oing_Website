@@ -135,7 +135,7 @@ export const Hero = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <StaticImage
-            src="../../images/screenshot5.jpg"
+            src="../../images/screenshot.jpg"
             alt="오잉 앱 스크린샷"
             placeholder="blurred"
             layout="fullWidth"

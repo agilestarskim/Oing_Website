@@ -138,7 +138,7 @@ export const DownloadCTA = () => {
           transition={{ duration: 0.6 }}
         >
           <StaticImage
-            src="../../images/screenshot5.jpg"
+            src="../../images/screenshot.jpg"
             alt="오잉 앱 스크린샷"
             placeholder="blurred"
             formats={["auto", "webp", "avif"]}

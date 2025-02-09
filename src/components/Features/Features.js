@@ -150,7 +150,7 @@ export const Features = () => {
                 transition={{ duration: 0.3 }}
               >
                 <StaticImage
-                  src="../../images/screenshot5.jpg"
+                  src="../../images/screenshot.jpg"
                   alt={feature.title}
                   placeholder="blurred"
                   formats={["auto", "webp", "avif"]}
