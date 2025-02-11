@@ -141,7 +141,7 @@ export const DownloadCTA = () => {
             src="../../images/screenshot.png"
             alt="오잉 앱 스크린샷"
             placeholder="blurred"
-            formats={["auto", "webp", "avif"]}
+            formats={["auto", "webp"]}
             quality={95}
             style={{ width: '100%', height: 'auto' }}
           />

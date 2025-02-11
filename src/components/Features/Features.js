@@ -151,11 +151,10 @@ export const Features = () => {
               >
                 <StaticImage
                   src="../../images/screenshot.png"
-                  alt={feature.title}
+                  alt="기능 스크린샷"
                   placeholder="blurred"
-                  formats={["auto", "webp", "avif"]}
+                  formats={["auto", "webp"]}
                   quality={95}
-                  style={{ width: '100%', height: 'auto' }}
                 />
               </Screenshot>
             </FeatureItem>

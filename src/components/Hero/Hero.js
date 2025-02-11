@@ -139,7 +139,7 @@ export const Hero = () => {
             alt="오잉 앱 스크린샷"
             placeholder="blurred"
             layout="fullWidth"
-            formats={["auto", "webp", "avif"]}
+            formats={["auto", "webp"]}
             quality={95}
             loading="eager"
           />
