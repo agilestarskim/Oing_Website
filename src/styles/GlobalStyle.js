@@ -8,6 +8,12 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+  }
+
   body {
     font-family: ${theme.typography.fontFamily.main};
     color: ${theme.colors.text.primary};

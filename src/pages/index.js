@@ -27,4 +27,9 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>오잉 - 하루 5분 영어 학습</title>
+export const Head = () => (
+  <>
+    <title>오잉 - 하루 5분 영어 학습</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  </>
+)
